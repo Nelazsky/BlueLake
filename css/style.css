@@ -6,3 +6,5 @@
 @import "_overall.css";
 
 /* components imports */
+@import "./components/header.css";
+@import "./components/first.css";
