@@ -8,3 +8,5 @@
 /* components imports */
 @import "./components/header.css";
 @import "./components/first.css";
+@import "./components/become.css";
+@import "./components/featured.css";
