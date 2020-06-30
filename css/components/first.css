@@ -3,7 +3,7 @@
   min-height: 640px;
   background-image: url("../../img/first-bg.jpg");
    background-position: center;
-   border-size: cover;
+   background-size: cover;
    background-repeat: no-repeat;
    color: var(--white-color);
 
