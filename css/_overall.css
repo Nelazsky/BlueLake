@@ -9,3 +9,18 @@
 .flex{
 	display: flex;
 }
+.btn-reset{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+
+}
+.section-title{
+	font-family: SFProDisplay;
+	font-size: 64px;
+	line-height: 80px;
+	color: var(--title-color);
+	width: 50%;
+	margin-top: 150px;
+}
