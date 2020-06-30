@@ -1,0 +1,74 @@
+.newsletter{
+  padding-top: 52px;
+  margin-bottom: 250px;
+}
+.newsletter-content{
+  position: relative;
+  --newsletter-gap : 133px;
+  border-radius: 8px;
+  background-image: url(../../img/singupbg.jpg);
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--newsletter-gap);
+  align-items: center;
+  padding-top: 300px;
+  padding-bottom: 180px;
+}
+.newsletter__title{
+  color: var(--white-color);
+  max-width: 370px;
+  margin-bottom: 40px;
+
+}
+.newsletter__desc{
+  color: var(--white-color);
+  max-width: 370px;
+  font-family: "SFCompact";
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+
+}
+.newsletter__form{
+  position: absolute;
+  bottom: -96px;
+  right: var(--newsletter-gap);
+}
+.subscribe-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 501px;
+  height: 416px;
+  border-radius: 8px;
+  padding-top: 53px;
+
+}
+.subscribe-form__field{
+  width: calc(100% - (72px * 2));
+  border: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(28,46,61, .3);
+  padding: 25px 0;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 2px;
+  color: #1C2E3D;
+  text-transform: uppercase;
+
+
+
+}
+.subscribe-form__btn{
+  margin-top: 74px;
+  width: 100%;
+  background-color:  var(--neptune-color);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 41px 80px;
+
+}

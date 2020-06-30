@@ -1,0 +1,36 @@
+.insp{
+ margin-bottom: 100px;
+}
+.insp-desc{
+
+  font-family: "SFCompactText";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #788692;
+  margin-top: 25px;
+  margin-bottom: 100px;
+
+
+
+}
+.grid{
+  display: grid;
+}
+.insp__list{
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(500px, auto);
+
+}
+.insp__item{
+  background: red;
+  border-radius: 8px;
+}
+.insp__item--big{
+  grid-column-end: span 2;
+}
+.insp__item--bigheigth{
+  height: 710px;
+}
